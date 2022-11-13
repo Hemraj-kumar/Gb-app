@@ -19,7 +19,7 @@ function Home() {
           <img src={process.env.PUBLIC_URL + '/girlpicstablet.png'} />
           </div>
         <div className="sub-hero-text">
-        <img src={process.env.PUBLIC_URL + 'redu/.png'} className="sub-hero-image"/>
+        <img src={process.env.PUBLIC_URL + '/redu.png'} className="sub-hero-image"/>
           <span>
             Open a gate for Knowledge
             <br />
