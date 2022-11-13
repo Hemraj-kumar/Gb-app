@@ -1,7 +1,7 @@
 import React from 'react';
-import gblogo from '/home/hacks_348/Desktop/gb-app/src/assets/png_growbinar.png';
+import gblogo from 'src/assets/png_growbinar.png';
 import '../styles/header.css';
-import logo from '/home/hacks_348/Desktop/gb-app/src/assets/Grow_Logo.jpg';
+import logo from 'src/assets/Grow_Logo.jpg';
 
 function Header() {
   return (

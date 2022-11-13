@@ -1,6 +1,6 @@
 import React from 'react';
-import girlpic from '/home/hacks_348/Desktop/gb-app/src/assets/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png';
-import redu from '/home/hacks_348/Desktop/gb-app/src/assets/casual-life-3d-remote-education (1).png';
+import girlpic from 'src/assets/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png';
+import redu from 'src/assets/casual-life-3d-remote-education (1).png';
 import { AiFillInstagram, AiFillMail } from 'react-icons/ai';
 import { IoLogoWhatsapp } from 'react-icons/io';
 
