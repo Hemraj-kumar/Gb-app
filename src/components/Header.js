@@ -1,17 +1,17 @@
 import React from 'react';
-import gblogo from 'src/assets/png_growbinar.png';
+// import gblogo from 'src/assets/png_growbinar.png';
 import '../styles/header.css';
-import logo from 'src/assets/Grow_Logo.jpg';
+// import logo from 'src/assets/Grow_Logo.jpg';
 
 function Header() {
   return (
     <div className="home_header">
       <div className='girllogo'>
-        <img src={logo} alt="logo-error"/>
+      <img src={process.env.PUBLIC_URL + '/Grow_Logo.jpg'} />
       </div>
       <div className="header_left">
           <div className='gb'>
-            <img src={gblogo} alt="gb-error"/>
+          <img src={process.env.PUBLIC_URL + '/png_growbinar.png'} />
           </div>
       </div>
 

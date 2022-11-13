@@ -1,6 +1,6 @@
 import React from 'react';
-import girlpic from 'src/assets/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png';
-import redu from 'src/assets/casual-life-3d-remote-education (1).png';
+// import girlpic from 'src/assets/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png';
+// import redu from 'src/assets/casual-life-3d-remote-education (1).png';
 import { AiFillInstagram, AiFillMail } from 'react-icons/ai';
 import { IoLogoWhatsapp } from 'react-icons/io';
 
@@ -16,10 +16,10 @@ function Home() {
         </div>
         <div className='girlcircle'></div>
           <div className='svg1girl'>
-            <img src={girlpic}/>
+          <img src={process.env.PUBLIC_URL + '/girlpicstablet.png'} />
           </div>
         <div className="sub-hero-text">
-          <img src={redu} alt="img" className="sub-hero-image"></img>
+        <img src={process.env.PUBLIC_URL + 'redu/.png'} className="sub-hero-image"/>
           <span>
             Open a gate for Knowledge
             <br />
